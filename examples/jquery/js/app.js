@@ -49,7 +49,6 @@ jQuery(function ($) {
 				'/:filter': function (filter) {
 					this.filter = filter;
 					this.render();
-					this.store();
 				}.bind(this)
 			}).init('/all');
 		},
